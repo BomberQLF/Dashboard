@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Time Tracking Dashboard</title>
+</head>
+<body>
+
+  <div class="grid-container">
+    <!-- Profile Section -->
+    <div class="profile grid-item">
+      <div class="container">
+        <div class="imgContainer">
+          <img src="images/image-jeremy.png" alt="Jeremy's Image">
+        </div>
+        <div class="detailsContainer">
+          <p>Report for</p>
+          <span class="jeremy">Jeremy</span><br>
+          <span class="jeremy">Robson</span>
+        </div>
+      </div>
+      <div class="dates">
+        <p class="time" id="daily">Daily</p>
+        <p class="time" id="weekly">Weekly</p>
+        <p class="time" id="monthly">Monthly</p>
+      </div>
+    </div>
+      
+    <!-- Data Sections -->
+    <div class="grid-item work">
+      <div class="box">
+        <img src="images/icon-work.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="work">Work</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="workHours">5hrs</p>
+          <p class="pastTime" id="workPrevious">Previous - 7hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item play">
+      <div class="box">
+        <img src="images/icon-play.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="play">Play</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="playHours">1hrs</p>
+          <p class="pastTime" id="playPrevious">Previous - 2hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item study">
+      <div class="box">
+        <img src="images/icon-study.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="study">Study</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="studyHours">0hrs</p>
+          <p class="pastTime" id="studyPrevious">Previous - 1hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item exercise">
+      <div class="box">
+        <img src="images/icon-exercise.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="exercise">Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="exerciseHours">1hrs</p>
+          <p class="pastTime" id="exercisePrevious">Previous - 1hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item social">
+      <div class="box">
+        <img src="images/icon-social.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="social">Social</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="socialHours">1hrs</p>
+          <p class="pastTime" id="socialPrevious">Previous - 3hrs</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-item self-care">
+      <div class="box">
+        <img src="images/icon-self-care.svg" alt="" class="svg">
+        <div class="bigContainer">
+          <div class="smallContainer">
+            <p class="title" id="self-care">Self Care</p>
+            <img src="images/icon-ellipsis.svg" alt="Ellipsis Icon" class="svgEli">
+          </div>
+          <p class="hours" id="self-careHours">0hrs</p>
+          <p class="pastTime" id="self-carePrevious">Previous - 1hrs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
