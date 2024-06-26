@@ -117,29 +117,52 @@ body {
   position: absolute;
   top: -52px;
   right: 30px;
-  /* z-index: 1; */
 }
 
 .work {
   background-color: #FF8B64;
+  background-image: url(images/icon-work.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .play {
   background-color: #55C2E6;
+  background-image: url(images/icon-play.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .study {
   background-color: #FF5E7D;
+  background-image: url(images/icon-study.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .exercise {
   background-color: #4BCF82;
+  background-image: url(images/icon-exercise.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social {
   background-color: #7335D2;
+  background-image: url(images/icon-social.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .self-care {
   background-color: #F1C75B;
+  background-image: url(images/icon-self-care.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
